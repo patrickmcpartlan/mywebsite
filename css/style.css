@@ -1,0 +1,17 @@
+html, body, #map{
+	height:100%;
+	width:100%;
+	font-family: 'Stick', sans-serif;
+} 
+
+
+.infoHeader {
+    color: white,
+    font-family: 'Stick', sans-serif;
+    font-size: 24px;
+}
+
+#mapid { height: 180px; }
+
+
+

@@ -1,41 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<title></title>
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Patrick</title>
+<link href="css/leaflet.css" type="text/css" rel=stylesheet>
+<link href="css/style.css" type="text/css" rel=stylesheet>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
 
-		<!--put your external stylesheet links here-->
-		<link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="lib/leaflet.css">
-		<!--[if IE<9]>
-			<link rel="stylesheet" href="css/style.ie.css">
-		<![endif]-->
-	</head>
+</head>
+<body>
 
-	<body>
-   <div id="mydiv">
-    Hello World!
-</div>
-        <script src="lib/leaflet-src.js"></script>
-        <script src="lib/jquery-3.5.1.min.js"></script>
-        <script src="js/main.js"></script>
-        <script>
-    var mydiv = document.getElementById("mydiv");
-    mydiv.addEventListener("click", function(){
-        alert("Hello World!");
-    });
-        </script>
+<div id="map"></div>
+<script src = "lib/jquery-3.5.1.min.js"></script>
+<script src= "lib/leaflet.js"></script>
+<script src='data/usmajorports.js'></script>
+<script src='data/TopShippingPorts.js'></script>
+<script src='data/TopShippingPorts_YearToYear.js'></script>
 
 
-    </div>
-		Patrick McPartlan 575
-		<!--put your initial page content here-->
-			
-		<!--you can also use this space for internal scripts or stylesheets;
-		place these within <script> or <style> tags-->
+<script src="js/main.js"></script>
 
-		<!--put your external script links here-->
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+</body>
 </html>
